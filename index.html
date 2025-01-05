@@ -6,6 +6,19 @@
     <meta name="description" content="Профессиональные услуги в области архитектуры и дизайна интерьеров. Создание уникальных проектов для домов и офисов.">
     <title>Архитектурный дизайн от [Имя]</title>
     <link rel="stylesheet" href="styles.css">
+    <style> 
+         .gallery {
+            display: flex;
+            flex-wrap: wrap;      /* Перенос изображений на новую строку */
+            gap: 10px;            /* Пробел между изображениями */
+            justify-content: center;  /* Выравнивание по центру */
+        }
+
+        .gallery img {
+            width: 400px;         /* Ширина каждого изображения */
+            height: auto;         
+        }
+    </style>
 </head>
 <body>
 
@@ -46,9 +59,9 @@
         <div class="container">
             <h2>Наши работы</h2>
             <div class="gallery">
-                <img src="portfolio-1.jpg" alt="Проект 1">
-                <img src="portfolio-2.jpg" alt="Проект 2">
-                <img src="portfolio-3.jpg" alt="Проект 3">
+                <img src="photos/1.jpg" alt="Проект 1">
+                <img src="photos/2.jpg" alt="Проект 2">
+                <img src="photos/3.jpg" alt="Проект 3">
             </div>
             <a href="#portfolio" class="cta-button">Посмотреть портфолио</a>
         </div>
