@@ -152,7 +152,7 @@ h2 {
     transform: scale(1.1); 
 }
 
-/* Адаптивность */
+
 @media (max-width: 768px) {
     .header {
         padding: 80px 20px;
