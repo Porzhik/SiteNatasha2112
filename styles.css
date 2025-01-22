@@ -1,4 +1,3 @@
-/* Общие стили */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -8,8 +7,13 @@ body {
     background-color: #f4f4f4;
 }
 
-h1, h2 {
-    color: #444;
+h1 {
+    color: rgb(209, 211, 187);
+    left: ;
+
+}
+h2 {
+    color:black;
 }
 
 .container {
@@ -18,12 +22,12 @@ h1, h2 {
     margin: 0 auto;
 }
 
-/* Стили для хедера */
+
 .header {
-    background: url('header-bg.jpg') no-repeat center center/cover;
+    background: url('photos/фон головы.jpg') no-repeat center center/cover;
     color: black;
     text-align: center;
-    padding: 100px 20px;
+    padding: 13%;
 }
 
 .header h1 {
@@ -52,11 +56,9 @@ h1, h2 {
     background: #0056b3;
 }
 
-/* Секции */
 section {
     padding: 60px 20px;
     background: white;
-    margin-bottom: 20px;
 }
 
 section:nth-of-type(odd) {
@@ -69,7 +71,6 @@ h2 {
     font-size: 2rem;
 }
 
-/* Список услуг */
 .services ul {
     list-style: none;
     padding: 0;
@@ -179,7 +180,6 @@ button:hover {
     background-color: #5a4db2;
 }
 
-/* Подвал */
 .footer {
     background: #333;
     text-align: center;
